@@ -1,6 +1,6 @@
 # About
 
-WebGL School の第 5 回目の講義の課題です。
+WebGL School の第 6 回目の講義の課題です。
 
 https://nemutas.github.io/ws-report6/
 

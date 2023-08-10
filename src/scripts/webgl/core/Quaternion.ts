@@ -44,7 +44,6 @@ export class Quaternion {
     const v = v3 instanceof Vector3 ? v3.array : v3
     const vq = new Quaternion([v[0], v[1], v[2], 0])
     const cq = this.inverse()
-    console.log(this, vq, cq)
     const mq = cq.multiply(vq.q).multiply(this.q)
     return [mq.q[0], mq.q[1], mq.q[2]] as V3
   }
